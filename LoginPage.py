@@ -3,7 +3,7 @@ from MyUtils import MyUtils
 
 
 class LoginPage(PageObject):
-    PAGE_TITLE = "Extreme Management Center: Login"
+    PAGE_TITLE = "Eloging pagen"
     PAGE_URL = "/OneView/home"
 
     # Page Object Locators
