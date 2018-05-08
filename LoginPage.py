@@ -18,6 +18,7 @@ class LoginPage(PageObject):
     def login_to_emc(self, username, password):
         """Login to modified """
         """ added extra line for comment"""
+        """"new line for comment3"""
         # Object
         login_btn = self.browser.find_element_by_css_selector("button[type='%s']" % self.locator.submit_button)
 
